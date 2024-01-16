@@ -7,7 +7,7 @@ width="160" height="200" viewBox="0 0 160 200" fill="none" xmlns="http://www.w3.
     svg { fill: #000; }
 
     @media (prefers-color-scheme: dark) {
-        svg { fill: #FFF; }
+        svg { fill: #FFF; background-color: #000}
     }
     </style>
 </svg>

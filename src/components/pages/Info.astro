@@ -1,0 +1,28 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import HeroContainer from '../../components/HeroContainer.astro'
+import Button from '../../components/Button.astro'
+import Numeros from '../Numeros.astro'
+import Galeria from '../Galeria.astro'
+---
+
+<Layout title='Info' description='Descripcion Info'>
+  <HeroContainer img='/archivo-background.webp'>
+    <h1
+      class='lg:text-6xl text-4xl text-center uppercase mb-20 font-tomaso tracking-widest'
+    >
+      EDICIONES ANTERIORES
+    </h1>
+
+    <Button
+      class='animate-fade-up uppercase'
+      url='https://www.youtube.com/watch?v=1YmpPrqKP-g'
+    >
+      REVIVE LA ÚLTIMA GALA
+    </Button>
+  </HeroContainer>
+  <main>
+    <Galeria />
+    <Numeros />
+  </main>
+</Layout>
